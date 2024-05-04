@@ -1,6 +1,6 @@
 
 #Load csv file
-Covid19_dataset <- read.csv("covid19_analysis_dataset", stringsAsFactors = FALSE)
+Covid19_dataset <- read.csv("covid19_analysis_dataset.csv", stringsAsFactors = FALSE)
 
 head(Covid19_dataset)    # Inspect top 6 rows of the data
 tail(Covid19_dataset) # Inspect last 6 rows of the data
